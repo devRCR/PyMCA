@@ -237,8 +237,8 @@
       <string/>
      </property>
      <property name="icon">
-      <iconset>
-       <normaloff>Images/update.png</normaloff>Images/update.png</iconset>
+      <iconset resource="resources.qrc">
+       <normaloff>:/Images/Images/update.png</normaloff>:/Images/Images/update.png</iconset>
      </property>
     </widget>
    </widget>
@@ -249,7 +249,7 @@
      <x>0</x>
      <y>0</y>
      <width>933</width>
-     <height>20</height>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -363,7 +363,9 @@
    <header>mplwidget</header>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>actionQuit</sender>
